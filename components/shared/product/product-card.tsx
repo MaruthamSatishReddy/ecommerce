@@ -18,7 +18,7 @@ const ProductCard = ({ product }: { product: any }) => {
       </CardHeader>
       <CardContent className="p-4 grid gap-4">
         <div className="grid gap-1.5 text-sm leading-4">
-          <p className="text-xs leading-3">{product.brand}</p>
+          <p className="text-xs leading-3 font-semibold">{product.brand}</p>
         </div>
         <div className="grid gap-1.5 text-sm leading-4">
           <Link href={`/product/${product.slug}`}>
