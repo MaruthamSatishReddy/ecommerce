@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import React from "react";
 const fontSans = FontSans({
   subsets: ["latin"],
   weight: ["400", "600"],
